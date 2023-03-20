@@ -1,0 +1,42 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  /* font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 200; */
+}
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  align-content: center;
+} */
+.border {
+  border: 1px solid black;
+}
+/* .width{
+    width:500px;
+} */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.login-img {
+  background: linear-gradient(
+    221deg,
+    rgb(76 203 179) 0%,
+    rgb(104 30 161) 100%
+  ) !important;
+}
+.color .errorMsg {
+  color: red;
+}
+.t-color {
+  color: #9a9a9a;
+}
+.self-a {
+  align-self: center;
+}

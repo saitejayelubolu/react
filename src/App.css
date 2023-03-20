@@ -1,0 +1,152 @@
+* {
+  -ms-overflow-style: none;
+}
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+.login-img {
+  background: linear-gradient(
+    221deg,
+    rgb(76 203 179) 0%,
+    rgb(104 30 161) 100%
+  ) !important;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: cover;
+}
+.form-width {
+  width: 350px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.pattern-alignment {
+  position: absolute;
+  bottom: 0;
+  top: auto;
+}
+.pattern {
+  height: 4px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+.pattern .red {
+  background: #fc3c5f;
+}
+.pattern span {
+  display: block;
+  width: 100%;
+}
+.pattern .indigo {
+  background: #993cfc;
+}
+.pattern .blue {
+  background: #3ca9fc;
+}
+.pattern .green {
+  background: #3cfc5f;
+}
+.pattern .orange {
+  background: #fcdf3c;
+}
+.bcg-img {
+  background-image: url(./images/sample.png);
+}
+.page-loader-wrapper {
+  z-index: 99999999;
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgb(34, 37, 42);
+}
+.page-loader-wrapper .loader {
+  margin: 0px auto;
+  width: 70px;
+  height: 50px;
+  text-align: center;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.page-loader-wrapper > div {
+  height: 100%;
+  width: 8px;
+  display: inline-block;
+  margin-left: 2px;
+  animation: 0.9s ease-in-out 0s infinite normal none running delay;
+}
+.page-loader-wrapper .loader .bar1 {
+  background-color: rgb(252, 60, 95);
+}
+.page-loader-wrapper .loader .bar2 {
+  background-color: rgb(153, 60, 252);
+  animation-delay: -0.8s;
+}
+.page-loader-wrapper .loader .bar3 {
+  background-color: rgb(60, 169, 252);
+  animation-delay: -0.7s;
+}
+.page-loader-wrapper .loader .bar4 {
+  background-color: rgb(60, 252, 95);
+  animation-delay: -0.6s;
+}
+.page-loader-wrapper .loader .bar5 {
+  background-color: rgb(252, 223, 60);
+  animation-delay: -0.5s;
+}
+.underline {
+  text-decoration: none;
+}
+.t-color {
+  color: #9a9a9a;
+}
+.icon-s {
+  font-size: 14px;
+}
+
+/* leave */
+.title-count {
+  font-size: 12px;
+  color: black;
+}
+.MuiFilledInput-input {
+  padding: 0px !important;
+  background-color: #fff !important;
+}
+
+.css-35zqo5-MuiTabs-root {
+  width: 300px !important;
+}
+.css-ymrs35 {
+  width: 100% !important;
+}
+#vertical-tabpanel-0 {
+  width: calc(100% - 300px) !important;
+}
+#vertical-tabpanel-1 {
+  width: calc(100% - 300px) !important;
+}
+#vertical-tabpanel-2 {
+  width: calc(100% - 300px) !important;
+}
+#vertical-tabpanel-3 {
+  width: calc(100% - 300px) !important;
+}
+select.form-control {
+  -webkit-appearance: menulist;
+}

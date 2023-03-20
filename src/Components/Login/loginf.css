@@ -1,0 +1,115 @@
+/* #register,
+#login {
+  width: 300px;
+  border: 1px solid #d6d7da;
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+  margin: 100px auto;
+}
+
+form label,
+form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #bdc7d8;
+} */
+
+.button {
+  background-color: #00bfff;
+  border-color: #3ac162;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6b8e23;
+  margin-bottom: 10px;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.capcha div {
+  display: flex;
+}
+.row.form-group.capcha.mb-3.form-control.pl-3 {
+  margin-left: 1px;
+}
+
+.loginmain {
+  display: flex;
+  height: 100vh;
+}
+.imsg {
+  width: calc(100% - 500px);
+}
+
+.imsg1 {
+  width: 500px;
+  padding: 50px;
+}
+.logform .form-control {
+  border-radius: 0 !important;
+  border: none;
+  border-bottom: solid 1px rgb(209, 209, 209);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.logform .form-control:focus {
+  box-shadow: none !important;
+  border-bottom: solid 1px rgb(63, 142, 247);
+  background-color: none !important;
+  border-color: none !important;
+}
+.logform .form-group {
+  margin-bottom: 1.5rem;
+}
+.form-control:focus {
+  background-color: none !important;
+  border-color: none !important;
+}
+.logform .form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  font-size: 22px;
+  opacity: 1; /* Firefox */
+}
+
+.logform .form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+.logform .form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ccc;
+}
+.lbel {
+  font-size: 22px;
+  font-weight: 600;
+}
+.lbel1 {
+  font-size: 20px;
+  line-height: 26px;
+}
+.hrm {
+  font-weight: 800;
+}
